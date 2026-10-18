@@ -1,0 +1,14 @@
+{
+  "name": "@apna-ai/mcp-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP server for creating Apna hosted payment links and QR codes",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
